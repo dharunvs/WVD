@@ -1,0 +1,50 @@
+msg_key,function_name
+81001:CM::Master XenServer:Citrix:6.0,create81001CitrixSDKProcessor
+81001:CM::Master XenServer:Citrix:6.1.0,create81001CitrixSDKProcessor
+81001:CM::Master XenServer:Citrix:6.2.0,create81001CitrixSDKProcessor
+81001:CM::Master XenServer:Citrix:6.5,create81001CitrixSDKProcessor
+81001:CM::Master XenServer:Citrix:7.1,create81001CitrixSDKProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:Master XenServer:Citrix:7.1,create81001CitrixSDKProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:Master XenServer:Citrix:6.0,create81001CitrixSDKProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:Master XenServer:Citrix:6.1.0,create81001CitrixSDKProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:Master XenServer:Citrix:6.2.0,create81001CitrixSDKProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:Master XenServer:Citrix:6.5,create81001CitrixSDKProcessor
+81001:CM::Cluster:Nutanix:2.0,create81001NutanixProcessor
+81001:CM::vCenter Server:VMware:6.0.0,create81001VMwareProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:vCenter Server:VMware:6.0.0,create81001VMwareProcessor
+81001:CM::HorizonCloud API:VMware HorizonCloud:1.0,create81001HorizonAirMessageProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:HorizonCloud API:VMware HorizonCloud:1.0,create81001HorizonAirMessageProcessor
+81005:CM::,create81005Proc
+82001:VMWAREINFOFETCHSERVICE::,create81001VMwareProcessor
+81002:CM::,create81002Proc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:7,createODataProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:7.1,createODataProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:7.5,createODataProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:7.6,createODataProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:7.7,createODataProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:7.8,createODataProc
+81002:CM::XenDesktop Controller:Citrix:7,createODataProc
+81002:CM::XenDesktop Controller:Citrix:7.1,createODataProc
+81002:CM::XenDesktop Controller:Citrix:7.5,createODataProc
+81002:CM::XenDesktop Controller:Citrix:7.6,createODataProc
+81002:CM::XenDesktop Controller:Citrix:7.7,createODataProc
+81002:CM::XenDesktop Controller:Citrix:7.8,createODataProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:XenDesktop Controller:Citrix:6.5,createPowerShellProc
+81002:CM::Citrix:6.5,createPowerShellProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:VMware Event Database:VMware:7.0,createVMwareEventsProc
+81002:CM::VMware Event Database:VMware:7.0,createVMwareEventsProc
+81002:CM::VMware HorizonCloud:1.0,create81002HorizonAirInfoSrcProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:VMware HorizonCloud:1.0,create81002HorizonAirInfoSrcProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:,createAutoRefreshProc
+Request:SCH:SESSION_REFRESH_TRIGGER:,createNOCUpdateProc
+81003:CM::,create81003Proc
+81007:CM::,create81007Proc
+Request:SCH:DISCOVERY_URL_MONITORING_TRIGGER:,create81007AutoRefreshProc
+21003:MM::,create21003Proc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:Cluster:Nutanix:2.0,create81001NutanixProcessor
+81002:CM::VMware View Connection Server:VMware:7.0,createVCSProc
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:VMware View Connection Server:VMware:7.0,createVCSProc
+81001:CM::HorizonCloud API:VMware HorizonCloud On Azure:1.0,create81001HorizonAirMessageProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:HorizonCloud API:VMware HorizonCloud On Azure:1.0,create81001HorizonAirMessageProcessor
+81002:CM::VMware HorizonCloud On Azure:1.0,create81002HorizonAirInfoSrcProcessor
+Request:SCH:DISCOVERY_TOPOLOGY_TRIGGER:VMware HorizonCloud On Azure:1.0,create81002HorizonAirInfoSrcProcessor
