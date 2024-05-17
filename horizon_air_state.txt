@@ -1,0 +1,81 @@
+transitionid,state,event,nextstate,actions
+1,EuV_Initial,ALLOCATE,Allocated,copyclientip; copyltime
+2,EuV_Initial,ALLOCATE_FAILURE,EuV_Initial,skip
+3,EuV_Initial,DISCONNECT,EuV_Initial,skip
+4,EuV_Initial,LOG_OFF,EuV_Initial,skip
+5,EuV_Initial,LOG_ON,Logged_On,copyclientip; copyltime
+6,EuV_Initial,RECONNECT,EuV_Initial,skip
+7,EuV_Initial,SESSION_TIMEOUT,EuV_Initial,skip
+8,EuV_Initial,UNKNOWN,EuV_Initial,skip
+9,Allocated,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+10,Allocated,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+11,Allocated,DISCONNECT,Disconnected,copydtime
+12,Allocated,LOG_OFF,Logged_Off,copydtime
+13,Allocated,LOG_ON,Logged_On,copyltime; cleardtime
+14,Allocated,RECONNECT,Reconnected,copyltime; cleardtime
+15,Allocated,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+16,Allocated,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+17,Allocate_Failed,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+18,Allocate_Failed,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+19,Allocate_Failed,DISCONNECT,Disconnected,copydtime
+20,Allocate_Failed,LOG_OFF,Logged_Off,copydtime
+21,Allocate_Failed,LOG_ON,Logged_On,copyltime; cleardtime
+22,Allocate_Failed,RECONNECT,Reconnected,copyltime; cleardtime
+23,Allocate_Failed,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+24,Allocate_Failed,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+25,Logged_Off,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+26,Logged_Off,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+27,Logged_Off,DISCONNECT,Disconnected,copydtime
+28,Logged_Off,LOG_OFF,Logged_Off,copydtime
+29,Logged_Off,LOG_ON,Logged_On,copyltime; cleardtime
+30,Logged_Off,RECONNECT,Reconnected,copyltime; cleardtime
+31,Logged_Off,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+32,Logged_Off,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+33,Logged_On,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+34,Logged_On,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+35,Logged_On,DISCONNECT,Disconnected,copydtime
+36,Logged_On,LOG_OFF,Logged_Off,copydtime
+37,Logged_On,LOG_ON,Logged_On,copyltime; cleardtime
+38,Logged_On,RECONNECT,Reconnected,copyltime; cleardtime
+39,Logged_On,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+40,Logged_On,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+41,Disconnected,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+42,Disconnected,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+43,Disconnected,DISCONNECT,Disconnected,copydtime
+44,Disconnected,LOG_OFF,Logged_Off,copydtime
+45,Disconnected,LOG_ON,Logged_On,copyltime; cleardtime
+46,Disconnected,RECONNECT,Reconnected,copyltime; cleardtime
+47,Disconnected,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+48,Disconnected,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+49,Reconnected,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+50,Reconnected,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+51,Reconnected,DISCONNECT,Disconnected,copydtime
+52,Reconnected,LOG_OFF,Logged_Off,copydtime
+53,Reconnected,LOG_ON,Logged_On,copyltime; cleardtime
+54,Reconnected,RECONNECT,Reconnected,copyltime; cleardtime
+55,Reconnected,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+56,Reconnected,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+57,Session_Timed_Out,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+58,Session_Timed_Out,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+59,Session_Timed_Out,DISCONNECT,Disconnected,copydtime
+60,Session_Timed_Out,LOG_OFF,Logged_Off,copydtime
+61,Session_Timed_Out,LOG_ON,Logged_On,copyltime; cleardtime
+62,Session_Timed_Out,RECONNECT,Reconnected,copyltime; cleardtime
+63,Session_Timed_Out,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+64,Session_Timed_Out,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+65,EuV_Invalid,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+66,EuV_Invalid,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+67,EuV_Invalid,DISCONNECT,Disconnected,copydtime
+68,EuV_Invalid,LOG_OFF,Logged_Off,copydtime
+69,EuV_Invalid,LOG_ON,Logged_On,copyltime; cleardtime
+70,EuV_Invalid,RECONNECT,Reconnected,copyclientip; copyltime; cleardtime
+71,EuV_Invalid,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+72,EuV_Invalid,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
+73,Unknown,ALLOCATE,Allocated,copyclientip; copyltime; cleardtime
+74,Unknown,ALLOCATE_FAILURE,Allocate_Failed,copyclientip; copyerror; copydtime
+75,Unknown,DISCONNECT,Disconnected,copydtime
+76,Unknown,LOG_OFF,Logged_Off,copydtime
+77,Unknown,LOG_ON,Logged_On,copyltime
+78,Unknown,RECONNECT,Reconnected,copyltime; cleardtime
+79,Unknown,SESSION_TIMEOUT,Session_Timed_Out,copydtime
+80,Unknown,UNKNOWN,Unknown,unknowntran; copyltime; cleardtime
